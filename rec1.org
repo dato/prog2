@@ -1,6 +1,6 @@
 #+TITLE: Recursividad: práctica 1
 #+SETUPFILE: .level.org
-#+OPTIONS: toc:2
+#+OPTIONS: toc:3
 #+BIND: org-src-preserve-indentation:t
 
 * Función /sumar/ recursiva

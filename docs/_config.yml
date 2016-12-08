@@ -1,0 +1,24 @@
+title: Trabajos prácticos - Programación II
+description: >
+  Consignas de los trabajos prácticos de Programación II. Instituto de
+  Ciencias, Universidad Nacional de General Sarmiento (Argentina).
+baseurl: "/tps"
+url: "https://ungs-prog2.github.io"
+
+theme: minima
+markdown: kramdown
+kramdown:
+  footnote_backlink: "&#x21A9;&#xFE0E;"
+
+collections:
+  tps:
+    output: true
+    permalink: /:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "tps"
+    values:
+      layout: tp

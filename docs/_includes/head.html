@@ -1,0 +1,31 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  {% if page.description %}
+  <meta name="description" content="{{ page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  {% endif %}
+
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+  {% if page.math or page.footnotes %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  {% endif %}
+
+  {% if page.footnotes %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bigfoot/2.1.4/bigfoot.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bigfoot/2.1.4/bigfoot-number.min.css">
+
+  <script type="text/javascript">
+    $.bigfoot();
+  </script>
+  {% endif %}
+
+  {% if page.math %}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js"></script>
+  {% endif %}
+</head>

@@ -5,8 +5,11 @@ description: >
 baseurl: "/tps"
 url: "https://ungs-prog2.github.io"
 
+# Build settings
 theme: minima
 markdown: kramdown
+permalink: pretty
+
 kramdown:
   footnote_backlink: "&#x21A9;&#xFE0E;"
 
@@ -14,6 +17,8 @@ collections:
   tps:
     output: true
     permalink: /:path/
+
+exclude: ["Gemfile"]
 
 defaults:
   -

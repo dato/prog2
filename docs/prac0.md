@@ -2,6 +2,9 @@
 
 La fecha de entrega de esta práctica es el **25 de marzo de 2017**, siguiendo las [instrucciones de entrega de la materia](entrega.md). Sólo se debe entregar código; no se precisa informe.
 
+Material de apoyo:
+
+  - el archivo de pruebas [TestPrac0.java](src/prac0/test/TestPrac0.java), para correr desde Eclipse con [JUnit](junit.md).
 
 ## Ejercicio 1
 

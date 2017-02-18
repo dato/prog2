@@ -1,0 +1,1 @@
+../../docs/src/prog2/prac0/test/TestPrac0.java

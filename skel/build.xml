@@ -1,0 +1,34 @@
+<project name="prog2">
+
+  <path id="junit4" path="/usr/share/java/junit4.jar" />
+
+  <target name="compilar">
+    <javac srcdir="orig" destdir="orig" includeantruntime="false"
+           encoding="latin1" classpathref="junit4" deprecation="true">
+      <compilerarg value="-Xlint:all" />
+      <compilerarg value="-Xlint:-serial" />
+      <compilerarg value="-Xlint:-overrides" />
+    </javac>
+  </target>
+
+  <target name="validar_api">
+    <mkdir dir="bin" />
+    <javac srcdir="corr" destdir="bin" includeantruntime="false"
+           encoding="latin1" classpathref="junit4" debug="true" />
+  </target>
+
+  <target name="pruebas_basicas">
+    <junit failureproperty="failed">
+        <classpath>
+          <path refid="junit4" />
+          <pathelement location="bin" />
+        </classpath>
+        <formatter type="brief" usefile="false" />
+        <batchtest skipNonTests="true">
+            <fileset dir="bin" includes="**/*.class"
+                               excludes="**/*$*.class" />
+        </batchtest>
+    </junit>
+    <fail message="FAILED" if="failed" />
+  </target>
+</project>

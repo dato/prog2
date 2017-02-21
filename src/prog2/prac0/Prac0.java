@@ -62,7 +62,42 @@ public class Prac0
 	}
 
 	public static int indicePicoLog(int[] arreglo) {
-		// Se resuelve usando búsqueda binaria.
+		// TODO(dato): usar <T extends Comparable<T>>. Con ello podríamos
+		// contar en los tests el número de comparaciones de manera exacta,
+		// sin recurrir a la medición de tiempos.
+		if (arreglo.length < 3)
+			return -1;
+
+		int low = 0;
+		int high = arreglo.length;
+		int mid = (high - low) / 2;
+
+		// TODO: Revisar y escribir más tests.
+		do {
+			int cmp1 = compareTo(arreglo[mid-1], arreglo[mid]);
+			int cmp2 = compareTo(arreglo[mid], arreglo[mid+1]);
+
+			if (cmp1 == 0 || cmp2 == 0)
+				return -1;
+
+			if (cmp1 < 0 && cmp2 > 0)
+				return mid;
+			else if (cmp1 < 0)
+				low = mid;
+			else if (cmp1 > 0 && cmp2 > 0)
+				high = mid;
+
+			mid = (high - low) / 2;
+		}
+		while (mid > 0);
 		return -1;
+	}
+
+	private static int compareTo(int a, int b) {
+		if (a < b)
+			return -1;
+		else if (a > b)
+			return 1;
+		return 0;
 	}
 }

@@ -40,11 +40,13 @@ public static int sumarNueva(...) ...
 Dada la siguiente definición de nodo:
 
 ```java
+package prog2.prac1;
+
 public class Nodo {
     int val;
-    NodoInt sig;
+    Nodo sig;
 
-    public Nodo(int x, NodoInt n) {
+    public Nodo(int x, Nodo n) {
         val = x;
         sig = n;
     }
@@ -56,6 +58,8 @@ implementar un método que, con complejidad lineal y manteniendo el ordenamiento
 ```java
 public static Nodo combinarOrdenados(Nodo seqA, Nodo seqB) ...
 ```
+
+No se debe crear ningún nuevo nodo. Se entrelazan ambas secuencias, devolviendo la cabeza de aquella que empezara con menor valor.
 
 
 ## Ejercicio 3

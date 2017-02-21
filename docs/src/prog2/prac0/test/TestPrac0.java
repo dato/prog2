@@ -216,4 +216,46 @@ public class TestPrac0
 			assertEquals(-1, Prac0.indicePico(arreglo2b));
 		}
 	}
+
+	//
+	// Tests para indicePicoLog().
+	//
+	public static class TestPicoLog
+	{
+		@Test
+		public void len3() {
+			int arreglo[] = { 1, 3, 2 };
+			assertEquals(1, Prac0.indicePicoLog(arreglo));
+		}
+
+		@Test
+		public void len4a() {
+			int arreglo[] = {2, 3, 1, 0};
+			assertEquals(1, Prac0.indicePicoLog(arreglo));
+		}
+
+		@Test
+		public void len4b() {
+			int arreglo[] = {1, 2, 3, 0};
+			assertEquals(2, Prac0.indicePicoLog(arreglo));
+		}
+
+		@Test
+		public void len5a() {
+			int arreglo[] = {3, 4, 2, 1, 0};
+			assertEquals(1, Prac0.indicePicoLog(arreglo));
+		}
+
+		@Test
+		public void len5b() {
+			int arreglo[] = {2, 3, 4, 1, 0};
+			assertEquals(2, Prac0.indicePicoLog(arreglo));
+		}
+
+		@Test
+		public void len5c() {
+			int arreglo[] = {1, 2, 3, 4, 0};
+			assertEquals(3, Prac0.indicePicoLog(arreglo));
+		}
+	}
 }

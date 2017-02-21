@@ -14,6 +14,9 @@
 
 .site-footer {
     padding-top: 3px;
+    /* The following two copied from _sass/simple-website.scss */
+    margin: 0 auto;
+    max-width: 40.625rem;
 }
 
 body {

@@ -1,8 +1,8 @@
 # Entrega de TPs y prácticas
 
-Todos las entregas se realizan por correo electrónico a la dirección de la materia: `ungs.prog2@gmail.com.`
+Todos las entregas se realizan por correo electrónico a la dirección de la materia: `ungs.prog2@gmail.com`. Cada envío recibe una respuesta automática indicando si se recibió correctamente.
 
-Cada entrega consta de _uno o dos_ archivos adjuntos:
+Todas las entregas constan de _uno o dos_ archivos adjuntos:
 
   1. un archivo **ZIP** con el código
 
@@ -27,7 +27,7 @@ En el caso de entregas grupales se incluye la información de los dos estudiante
 
 ## Requisitos de la entrega y corrector automático
 
-Es requisito indispensable que el código entregado compile sin errores. **No se aceptarán entregas con errores de compilación.** Tras realizar la entrega, un proceso automático responderá informando si el código compiló correctamente.
+Es requisito indispensable que el código entregado compile sin errores. **No se aceptarán entregas con errores de compilación.** Tras realizar la entrega, la respuesta automática informará si el código compiló correctamente.
 
 Asimismo, si la consigna incluye casos de prueba en formato [JUnit](junit.md), la entrega debe cumplir con su especificación.
 

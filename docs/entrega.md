@@ -17,12 +17,12 @@ Se puede usar la opción de Eclipse _File → Export → General → Archive_, c
 
 El asunto del correo debe incluir nombre de la entrega, comisión, apellido y número de padrón; por ejemplo:
 
-    Asunto: Prac0 COM1 - Simó, 12345/2015
-    Asunto: Prac1 COM2 - Pustilnik, 67890/2014
+    Asunto: Prac0 COM1 - López, 12345/2015
+    Asunto: Prac1 COM2 - Giménez, 67890/2014
 
 En el caso de entregas grupales se incluye la información de los dos estudiantes:
 
-    Asunto: TP1 COM3 - Nieto, 22334/2016 - Torre, 44556/2017
+    Asunto: TP1 COM3 - Campos, 22334/2016 - Alfonso, 44556/2017
 
 
 ## Requisitos de la entrega y corrector automático

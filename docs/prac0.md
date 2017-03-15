@@ -33,7 +33,8 @@ Resultado:
 
 Implementar una función que determine si un arreglo es subconjunto de otro:
 
-	public static boolean pertenecenTodos(int[] elems, int[] arreglo) ...
+    public static boolean pertenecenTodos(int[] elems,
+                                          int[] arreglo) ...
 
 Casos borde a tener en cuenta:
 

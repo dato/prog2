@@ -1,6 +1,8 @@
 # Práctica 0 con arreglos estáticos
 
-La fecha de entrega de esta práctica es el **25 de marzo de 2017**, siguiendo las [instrucciones de entrega de la materia](entrega.md). Sólo se debe entregar código; no se precisa informe.
+La fecha de entrega de esta práctica es el **28 de marzo de 2017**, siguiendo las [instrucciones de entrega de la materia](entrega.md). Sólo se debe entregar código; no se precisa informe.
+
+Todo el código debe estar en una única clase: `prog2.prac0.Prac0`.
 
 
 ## Ejercicio 1
@@ -66,4 +68,4 @@ Nota: siempre se cumple que 0 < P < N-1, por lo que todos los arreglos unimodale
 
 ## Ejercicio opcional
 
-Implementar una función estática `indicePicoLog()` que, con complejidad logarítmica, encuentre el pico en un arreglo que se sabe es unimodal.
+Implementar un método estático `indicePicoLog()` que, con complejidad logarítmica, encuentre el pico en un arreglo que se sabe es unimodal.

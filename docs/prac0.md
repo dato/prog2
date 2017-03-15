@@ -4,6 +4,9 @@ La fecha de entrega de esta práctica es el **28 de marzo de 2017**, siguiendo l
 
 Todo el código debe estar en una única clase: `prog2.prac0.Prac0`.
 
+Material de apoyo:
+
+  - el archivo de pruebas [TestPrac0.java](src/prac0/test/TestPrac0.java), para correr desde Eclipse con [JUnit](junit.md).
 
 ## Ejercicio 1
 

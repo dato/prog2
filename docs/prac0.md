@@ -75,3 +75,10 @@ Nota: siempre se cumple que 0 < P < N-1, por lo que todos los arreglos unimodale
 ## Ejercicio opcional
 
 Implementar un método estático `indicePicoLog()` que, con complejidad logarítmica, encuentre el pico en un arreglo que se sabe es unimodal.
+
+**NOTA**: el ejercicio es opcional, pero la función _debe_ estar presente para que la corrección automática funcione. De no estar implementada, la función debe devolver -42:
+
+```java
+public static int indicePicoLog(int[] arreglo) {
+    return -42;  // No se entrega ejercicio opcional.
+```

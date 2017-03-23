@@ -64,7 +64,7 @@ No es importante:
 
 **El corrector me responde: ‘errores en las firmas definidas’**
 
-No compila el código entregado al ser combinado con las pruebas de la consigna. Esto significa que no se siguió algún detalle de la consigna (nombre de paquete, visibilidad _public_, parámetros de las funciones, etc.).
+No compila el código entregado al ser combinado con las pruebas de la consigna. Esto significa que no se siguió algún detalle de la consigna (nombre de paquete, visibilidad _public_, parámetros de las funciones, etc.). También puede faltar la firma de algún ejercicio opcional.
 
 Ver también la pregunta siguiente.
 

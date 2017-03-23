@@ -2,6 +2,8 @@ package prog2.prac0.test;
 
 import static org.junit.Assert.*;
 
+import org.junit.Assume;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.RunWith;
@@ -222,6 +224,12 @@ public class TestPrac0
 	//
 	public static class TestPicoLog
 	{
+		@Before
+		public void isImplemented() {
+			int arreglo[] = {1, 3, 2};
+			Assume.assumeTrue(Prac0.indicePicoLog(arreglo) != -42);
+		}
+
 		@Test
 		public void len3() {
 			int arreglo[] = { 1, 3, 2 };

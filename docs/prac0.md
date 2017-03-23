@@ -80,4 +80,5 @@ Implementar un método estático `indicePicoLog()` que, con complejidad logarít
 ```java
 public static int indicePicoLog(int[] arreglo) {
     return -42;  // No se entrega ejercicio opcional.
+}
 ```

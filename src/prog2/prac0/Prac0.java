@@ -69,7 +69,7 @@ public class Prac0
 			return -1;
 
 		int low = 0;
-		int high = arreglo.length;
+		int high = arreglo.length - 1;
 		int mid = (high - low) / 2;
 
 		// TODO: Revisar y escribir más tests.
@@ -87,7 +87,7 @@ public class Prac0
 			else if (cmp1 > 0 && cmp2 > 0)
 				high = mid;
 
-			mid = (high - low) / 2;
+			mid = (high - low) / 2 + low;
 		}
 		while (mid > 0);
 		return -1;

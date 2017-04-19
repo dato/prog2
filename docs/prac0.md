@@ -8,6 +8,7 @@ Material de apoyo:
 
   - el archivo de pruebas [TestPrac0.java](../src/prog2/prac0/test/TestPrac0.java), para correr desde Eclipse con [JUnit](junit.md).
 
+Los ejercicios marcados con [AcumBool] deberan resolverse con Acumuladores Booleanos
 
 ## Ejercicio 1
 
@@ -27,7 +28,7 @@ Resultado:
 ```
 
 
-## Ejercicio 2
+## Ejercicio 2  [AcumBool]
 
 Implementar una función que determine si un arreglo es subconjunto de otro:
 
@@ -51,7 +52,7 @@ Algunos ejemplos:
 ```
 
 
-## Ejercicio 3
+## Ejercicio 3  [AcumBool]
 
 Un arreglo se dice unimodal o en forma de pico si es estrictamente creciente hasta una posición P, y estrictamente decreciente a partir de ella.
 
@@ -71,7 +72,7 @@ Ejemplos:
 Nota: siempre se cumple que 0 < P < N-1, por lo que todos los arreglos unimodales tienen al menos tres elementos.
 
 
-## Ejercicio opcional
+## Ejercicio opcional  [AcumBool]
 
 Implementar un método estático `indicePicoLog()` que, con complejidad logarítmica, encuentre el pico en un arreglo que se sabe es unimodal.
 

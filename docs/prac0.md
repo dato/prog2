@@ -8,7 +8,7 @@ Material de apoyo:
 
   - el archivo de pruebas [TestPrac0.java](../src/prog2/prac0/test/TestPrac0.java), para correr desde Eclipse con [JUnit](junit.md).
 
-Los ejercicios marcados con [AcumBool] deberan resolverse con Acumuladores Booleanos
+Los ejercicios marcados con [AcumBool] deberán resolverse con _acumuladores booleanos_.
 
 ## Ejercicio 1
 

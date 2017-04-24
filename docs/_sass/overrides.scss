@@ -1,0 +1,76 @@
+//
+// Layout
+//
+//
+
+.page-content {
+  //margin: 0 auto;
+  padding-bottom: 3px;
+  //max-width: 40.625rem;
+}
+
+.site-footer {
+  padding-bottom: 3px;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0.75em;
+  }
+}
+
+
+//
+//
+// Links
+//
+
+a:visited, a:hover {
+  color: $brand-color;
+}
+
+a.site-title {
+  text-decoration: none;
+}
+
+
+//
+// Headers
+//
+
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.296rem !important;
+}
+
+h2 {
+  font-size: 1.215rem !important;
+}
+
+h3 {
+  font-size: 1.138rem !important;
+}
+
+
+//
+// Code
+//
+
+code {
+  padding: 0;
+  border: none;
+  background-color: inherit;
+}
+
+pre {
+  margin-left: 2em;
+}
+
+.highlighter-rouge .highlight {
+  border: none;
+  background-color: #f3f3f3;
+}

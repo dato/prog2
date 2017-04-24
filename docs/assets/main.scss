@@ -1,56 +1,49 @@
 ---
 ---
 
-@import "simple-website";
+// Defaults from simple-website.
+$brand-color: #1976d2;
+$text-color:  rgba(0, 0, 0, 0.87);
 
-.post-content h1 {
-    font-size: 145%;
-    border-bottom: solid 3px #ccc;
+$base-line-height: 1.640625;
+$base-font-family: -apple-system, BlinkMacSystemFont,  'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',  'Fira Sans', 'Droid Sans', 'Helvetica Neue',  sans-serif;
+
+$content-width: 710px;
+
+@import "minima";
+@import "overrides";
+@import "navigation";
+
+html {
+  text-rendering: optimizeLegibility;
 }
 
-.post-content h2 {
-    border-bottom: solid 1px #ccc;
+h1 {
+  border-bottom: solid 3px #ccc;
 }
 
-.site-footer {
-    padding-top: 3px;
-    /* The following two copied from _sass/simple-website.scss */
-    margin: 0 auto;
-    max-width: 40.625rem;
+h2 {
+  border-bottom: solid 1px #ccc;
 }
 
-body {
-    counter-reset: ej;
+.deadline {
+    color: red;
 }
 
-h3:before {
-    counter-increment: ej;
-    content: counter(ej) ". ";
+.bigfoot-footnote {
+    font-size: 0.878rem;
 }
 
-code {
-  padding: 0;
-  border: none;
-}
+ol.lower_alpha {
+    list-style-type: lower-alpha;
 
-pre {
-  padding: 12px;
-  overflow: auto;
-  margin-left: 2em;
-  word-wrap: normal;
-  word-break: normal;
-}
+    /*
+    li {
+        font-weight: bold;
 
-pre code {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  display: inline;
-  max-width: auto;
-  overflow: visible;
-}
-
-.highlighter-rouge .highlight {
-  border: none;
-  background-color: #f3f3f3;
+        p {
+            font-weight: normal;
+        }
+    }
+    */
 }

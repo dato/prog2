@@ -1,0 +1,62 @@
+/*
+div#toc {
+  position: sticky;
+  top: 85px;
+  display: block;
+  padding: 0 20px 0 0;
+}
+*/
+
+.site-header {
+  // TODO: always visible.
+}
+
+.site-nav {
+
+  // From: https://www.w3schools.com/css/css_navbar.asp
+  ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    padding: 0 15px;
+    display: inline-block;
+    color: $text-color;
+    text-decoration: none;
+  }
+
+  li a:hover, .dropdown:hover > a {
+    background-color: $grey-color-light;
+  }
+
+  li.dropdown {
+    display: inline-block;
+  }
+
+  div.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
